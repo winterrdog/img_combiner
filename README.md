@@ -7,7 +7,8 @@ A toy project that combines two images to form one image. I developed it in orde
 * Some commandline-Fu( _just a little bit_ ).
 
 # ⚙👷 HOW IT WORKS
-* You provide the program with 2 images and it does the image processing for you in order to produce a single image
+* You provide the program with 2 images and it does the image processing for you in order to produce a single image.
+* It only has support for [these](https://github.com/image-rs/image/blob/master/README.md#supported-image-formats) image formats.
 * For example, I made a sample run to combine images,  `sample_imgs/kid_smile.jpg` and `sample_imgs/woman.jpeg` , to produce `sample_imgs/out_foto.jpg` which looks like so:
 
 ![output_image](https://github.com/winterrdog/img_combiner/blob/main/sample_imgs/out_foto.jpg)
